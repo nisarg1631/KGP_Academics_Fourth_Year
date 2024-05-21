@@ -1,0 +1,47 @@
+# PROCFS #
+To provide the operations of a priority queue using file operations we use the proc file system.
+Callback functions are associated with open, close, read and write of this file.
+We store the data associated with each process interacting with the file in a static array of size MAX_PROCESS_COUNT (macro set to 100).
+Thus at any time at most 100 processes can have the file in an open state.
+
+# SYNCHRONISATION WITH MUTEX LOCKS #
+Because multiple processes are interating with the file there can be certain race conditions.
+We identified that with our design race conditions can only arrise while the opening and closing operations.
+We use two locks, for the two global variables we have:
+1. process_count_mutex (for the current process_count variable)
+2. process_mutex (for the static array storing data associated with processes)
+
+The following condition is ensured while adding a process: once the lock on process_count_mutex has been released
+and if the process_count was less than MAX_PROCESS_COUNT when the lock was acquired it is guaranteed that the process will get
+a location in the static array
+
+The following condition is ensure while removing a process: once the lock on process_count_mutex has been released
+it is guaranteed that there is at least one free slot in the static array
+
+Accesses to the static array while adding and removing a process are guarded by the process_mutex, the reason for this is 
+trivial, it may happen that two processes simultaneously find the same empty slot.
+
+# PRIORITY QUEUE #
+The priority queue is implemented using a min heap.
+In order to ensure that elements with the same priority are popped in the order in which they were inserted
+we use a counter associated with each inserted element. As the total operations are bounded the maximum value
+this counter can take is 2 * n + 1. Thus if the priorities are same, elements are compared by the counter values,
+with elements having a lower counter value being placed higher in the heap and hence they are popped first.
+
+# LOADING THE LKM #
+To load the LKM run the following commands while inside the directory containing the Makefile
+1. make
+2. sudo insmod partb_G13_main.ko
+To clean up and remove the module run
+1. make clean
+2. sudo rmmod partb_G13_main
+
+The LKM has been tested on Linux Kernel 5.6.9
+
+# TEST SUITE #
+To check that everything is working properly we ran some tests.
+1. test1.c contains tests to ensure that the LKM properly checks if the processes are interacting with the file
+as they are supposed to based on the specifications of the assignment.
+2. test2.c is a brute force test for checking concurrency and that no race conditions are taking place. It was difficult
+to manually check the output of this and hence we created a checker python script for the same.
+3. testpq.c was used to check the correctness of the min heap implementation

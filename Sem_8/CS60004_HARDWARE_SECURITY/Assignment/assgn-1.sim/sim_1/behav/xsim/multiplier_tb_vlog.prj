@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../assgn-1.srcs/sources_1/new/k1.v" \
+"../../../../assgn-1.srcs/sources_1/new/k10.v" \
+"../../../../assgn-1.srcs/sources_1/new/k11.v" \
+"../../../../assgn-1.srcs/sources_1/new/k163.v" \
+"../../../../assgn-1.srcs/sources_1/new/k2.v" \
+"../../../../assgn-1.srcs/sources_1/new/k20.v" \
+"../../../../assgn-1.srcs/sources_1/new/k21.v" \
+"../../../../assgn-1.srcs/sources_1/new/k3.v" \
+"../../../../assgn-1.srcs/sources_1/new/k40.v" \
+"../../../../assgn-1.srcs/sources_1/new/k41.v" \
+"../../../../assgn-1.srcs/sources_1/new/k5.v" \
+"../../../../assgn-1.srcs/sources_1/new/k6.v" \
+"../../../../assgn-1.srcs/sources_1/new/k81.v" \
+"../../../../assgn-1.srcs/sources_1/new/k82.v" \
+"../../../../assgn-1.srcs/sources_1/new/multiplier.v" \
+"../../../../assgn-1.srcs/sources_1/new/reducer.v" \
+"../../../../assgn-1.srcs/sim_1/new/multiplier_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

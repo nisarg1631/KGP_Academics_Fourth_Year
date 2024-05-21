@@ -1,0 +1,410 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 13 20:02:43 2023
+# Process ID: 26772
+# Current directory: C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.runs/synth_1
+# Command line: vivado.exe -log multiplier.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source multiplier.tcl
+# Log file: C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.runs/synth_1/multiplier.vds
+# Journal file: C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source multiplier.tcl -notrace
+Command: synth_design -top multiplier -part xc7a200tlffv1156-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200tl'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200tl'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7692 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 339.391 ; gain = 91.367
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'multiplier' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/multiplier.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k163' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k163.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k82' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k82.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k41' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k41.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k21' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k21.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k11' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k11.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k6' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k6.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k3' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k2' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k1' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k1' (1#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k2' (2#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k3' (3#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k3.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k6' (4#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k6.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k5' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k5.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k5' (5#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k5.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k11' (6#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k11.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k10' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k10.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k10' (7#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k10.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k21' (8#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k21.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k20' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k20.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k20' (9#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k20.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k41' (10#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k41.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k82' (11#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k82.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k81' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k81.v:23]
+INFO: [Synth 8-6157] synthesizing module 'k40' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k40.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k40' (12#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k40.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k81' (13#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k81.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'k163' (14#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/k163.v:23]
+INFO: [Synth 8-6157] synthesizing module 'reducer' [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/reducer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'reducer' (15#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/reducer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'multiplier' (16#1) [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/sources_1/new/multiplier.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 414.695 ; gain = 166.672
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 414.695 ; gain = 166.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 414.695 ; gain = 166.672
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tlffv1156-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/constrs_1/new/timing.xdc]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/constrs_1/new/timing.xdc:1]
+Finished Parsing XDC File [C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.srcs/constrs_1/new/timing.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 852.996 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 852.996 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 852.996 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 852.996 ; gain = 604.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tlffv1156-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 852.996 ; gain = 604.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 852.996 ; gain = 604.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 852.996 ; gain = 604.973
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     82 Bit         XORs := 2     
+	   2 Input     41 Bit         XORs := 6     
+	   2 Input     21 Bit         XORs := 16    
+	   2 Input     20 Bit         XORs := 2     
+	   2 Input     11 Bit         XORs := 32    
+	   2 Input     10 Bit         XORs := 22    
+	   2 Input      6 Bit         XORs := 64    
+	   2 Input      5 Bit         XORs := 98    
+	   2 Input      3 Bit         XORs := 486   
+	   2 Input      2 Bit         XORs := 1100  
+	   3 Input      1 Bit         XORs := 3112  
+	   2 Input      1 Bit         XORs := 5353  
+	   4 Input      1 Bit         XORs := 1668  
+	   6 Input      1 Bit         XORs := 61    
+	   5 Input      1 Bit         XORs := 53    
+	   7 Input      1 Bit         XORs := 7     
+	   8 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module k2 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 2     
+Module k3 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      2 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 3     
+	   3 Input      1 Bit         XORs := 1     
+Module k6 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      3 Bit         XORs := 2     
+	   4 Input      1 Bit         XORs := 4     
+	   3 Input      1 Bit         XORs := 1     
+Module k5 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      3 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 4     
+	   3 Input      1 Bit         XORs := 3     
+Module k11 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      6 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 7     
+	   3 Input      1 Bit         XORs := 9     
+Module k10 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      5 Bit         XORs := 2     
+	   4 Input      1 Bit         XORs := 8     
+	   3 Input      1 Bit         XORs := 1     
+Module k21 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     11 Bit         XORs := 2     
+	   3 Input      1 Bit         XORs := 3     
+	   4 Input      1 Bit         XORs := 18    
+Module k20 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     10 Bit         XORs := 2     
+	   4 Input      1 Bit         XORs := 18    
+	   3 Input      1 Bit         XORs := 1     
+Module k41 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     21 Bit         XORs := 2     
+	   4 Input      1 Bit         XORs := 38    
+	   3 Input      1 Bit         XORs := 3     
+Module k82 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     41 Bit         XORs := 2     
+	   4 Input      1 Bit         XORs := 80    
+	   3 Input      1 Bit         XORs := 1     
+Module k40 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     20 Bit         XORs := 2     
+	   4 Input      1 Bit         XORs := 38    
+	   3 Input      1 Bit         XORs := 1     
+Module k81 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     41 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 42    
+	   3 Input      1 Bit         XORs := 79    
+Module k163 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     82 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 83    
+	   3 Input      1 Bit         XORs := 161   
+Module reducer 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 80    
+	   3 Input      1 Bit         XORs := 19    
+	   4 Input      1 Bit         XORs := 32    
+	   6 Input      1 Bit         XORs := 61    
+	   5 Input      1 Bit         XORs := 53    
+	   7 Input      1 Bit         XORs := 7     
+	   8 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 920.836 ; gain = 672.812
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 920.836 ; gain = 672.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 920.836 ; gain = 672.812
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 1469.863 ; gain = 1221.840
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 1469.863 ; gain = 1221.840
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 1469.863 ; gain = 1221.840
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 1469.863 ; gain = 1221.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 1469.863 ; gain = 1221.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 1469.863 ; gain = 1221.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 1469.863 ; gain = 1221.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |   952|
+|2     |LUT3 |   529|
+|3     |LUT4 |  2439|
+|4     |LUT5 |  2328|
+|5     |LUT6 |  3300|
+|6     |IBUF |   326|
+|7     |OBUF |   163|
++------+-----+------+
+
+Report Instance Areas: 
++------+----------------+-------+------+
+|      |Instance        |Module |Cells |
++------+----------------+-------+------+
+|1     |top             |       | 10037|
+|2     |  mult          |k163   |  9545|
+|3     |    mult_high   |k81    |  3237|
+|4     |      mult_high |k40    |  1071|
+|5     |      mult_low  |k41_6  |  1004|
+|6     |      mult_mid  |k41_7  |  1091|
+|7     |    mult_low    |k82    |  3056|
+|8     |      mult_high |k41_3  |   985|
+|9     |      mult_low  |k41_4  |   979|
+|10    |      mult_mid  |k41_5  |  1019|
+|11    |    mult_mid    |k82_0  |  3099|
+|12    |      mult_high |k41    |  1060|
+|13    |      mult_low  |k41_1  |  1036|
+|14    |      mult_mid  |k41_2  |   921|
++------+----------------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 1469.863 ; gain = 1221.840
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:00:45 . Memory (MB): peak = 1469.863 ; gain = 783.539
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 1469.863 ; gain = 1221.840
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1469.863 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 1469.863 ; gain = 1221.840
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1469.863 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.runs/synth_1/multiplier.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file multiplier_utilization_synth.rpt -pb multiplier_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 13 20:03:41 2023...

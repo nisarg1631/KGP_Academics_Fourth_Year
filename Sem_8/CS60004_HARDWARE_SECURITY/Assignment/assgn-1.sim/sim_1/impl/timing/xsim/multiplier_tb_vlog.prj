@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"multiplier_tb_time_impl.v" \
+"../../../../../assgn-1.srcs/sim_1/new/multiplier_tb.v" \
+
+# Do not sort compile order
+nosort

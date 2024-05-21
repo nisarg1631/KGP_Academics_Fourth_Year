@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 13 20:18:39 2023
+# Process ID: 25732
+# Current directory: C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.sim/sim_1/impl/timing/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.sim/sim_1/impl/timing/xsim/xsim.dir/multiplier_tb_time_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.sim/sim_1/impl/timing/xsim/webtalk.log
+# Journal file: C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.sim/sim_1/impl/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/nisar/My -notrace

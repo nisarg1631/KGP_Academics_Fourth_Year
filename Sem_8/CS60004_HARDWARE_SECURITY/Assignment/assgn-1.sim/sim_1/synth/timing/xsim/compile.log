@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nisar/My Files/IIT Kharagpur/FourthYear/Sem8/HSEC/Assgn-1/assgn-1.sim/sim_1/synth/timing/xsim/multiplier_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module k163
+INFO: [VRFC 10-311] analyzing module k40
+INFO: [VRFC 10-311] analyzing module k41
+INFO: [VRFC 10-311] analyzing module k41_1
+INFO: [VRFC 10-311] analyzing module k41_2
+INFO: [VRFC 10-311] analyzing module k41_3
+INFO: [VRFC 10-311] analyzing module k41_4
+INFO: [VRFC 10-311] analyzing module k41_5
+INFO: [VRFC 10-311] analyzing module k41_6
+INFO: [VRFC 10-311] analyzing module k41_7
+INFO: [VRFC 10-311] analyzing module k81
+INFO: [VRFC 10-311] analyzing module k82
+INFO: [VRFC 10-311] analyzing module k82_0
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-311] analyzing module glbl
